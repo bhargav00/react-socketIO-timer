@@ -3,10 +3,10 @@ var app = express();
 var server = require("http").Server(app);
 var io = require("socket.io")(server);
 io.on('connection', (socket) => {
-    socket.on('startTimer', (interval) => {
+    socket.on('startTimer', (timerValue) => {
         let timer = setInterval(() => {
-            socket.emit('timer', interval--);
-            if (interval == -1){
+            socket.emit('timer', timerValue--);
+            if (timerValue == -1){
                 clearInterval(timer);
             }
           }, 1000);

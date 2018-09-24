@@ -9,11 +9,11 @@ class App extends Component {
     super(props);
     this.onTimerStart = this.onTimerStart.bind(this);
     this.state = {
-      timestamp: 'no timestamp yet'
+      timestamp: 'timer is not running yet'
     };
   }
   onTimerStart(){
-    startTimer(this.timerValue.value, (err, timestamp) => this.setState({ 
+    startTimer(this.timerValue.value, (timestamp) => this.setState({ 
       timestamp 
     }));
   }
