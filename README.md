@@ -7,12 +7,12 @@ Read my Medium [Article](https://medium.com/@bmaniar/getting-started-with-react-
 ### Getting Started
 
 #### Starting Node Server
-1. Inside code directory do ```npm install``` or ```yarn install``` for all server dependencies
-2. Then do run ```npm start```
+1. Run ```npm install``` or ```yarn install``` in root directory for all server dependencies
+2. Then run ```npm start```
 
 #### Starting Client Side 
-1. Go to ```client``` folder and do ```npm install``` or ```yarn install``` for all client side dependencies
-2. Then do run ```npm start```
+1. Go to ```client``` folder and run ```npm install``` or ```yarn install``` for all client side dependencies
+2. Then run ```npm start```
 
 ### Tech Stack
 
